@@ -46,9 +46,9 @@ learning_rate = 0.001
 batch_size = 64 
 
 #load data 
-train_set=dataset(csv_file= r'E:\colleage\ARL\persiption\data_set\driving_log.csv',root_dir= r'E:\colleage\ARL\persiption\data_set\IMG', transform=transforms.ToTensor())
+train_set=dataset(csv_file= r'E:\colleage\ARL\persiption\data_set\driving_log_train.csv',root_dir= r'E:\colleage\ARL\persiption\data_set\IMG', transform=transforms.ToTensor())
 
-test_set=dataset(csv_file= r'E:\colleage\ARL\persiption\test\driving_log.csv',root_dir= r'E:\colleage\ARL\persiption\test\IMG', transform=transforms.ToTensor())
+test_set=dataset(csv_file= r'E:\colleage\ARL\persiption\test\driving_log_test.csv',root_dir= r'E:\colleage\ARL\persiption\test\IMG', transform=transforms.ToTensor())
 
 train_loader= DataLoader(train_set, batch_size, shuffle=True)
 test_loader=DataLoader(test_set, batch_size, shuffle=False)
