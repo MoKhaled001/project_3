@@ -1,0 +1,6 @@
+this link contain 2 folders
+https://drive.google.com/drive/folders/1vXRaCEiFm19y5Id8vDP0LebO3zsL7GS7?usp=drive_link
+___________________________ 
+test    --> for testing data
+data_set--> for trining 
+__________________________
